@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideoutmenuComponent } from './slideoutmenu/slideoutmenu.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideoutmenuComponent
+    SlideoutmenuComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,

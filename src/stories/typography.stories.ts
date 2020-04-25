@@ -20,19 +20,11 @@ class Headings { }
         <p class="blue"><![CDATA[<p class="blue">Lorem ipsum</p>]]></p>
         <a href><![CDATA[<a href>Lorem ipsum</a>]]></a>
     `
-    // template: `
-    // <div class="flex-col">
-    //     <p><![CDATA[<p>Lorem ipsum</p>]]></p>
-    //     <strong><![CDATA[<strong>Lorem ipsum</strong>]]></strong>
-    //     <i><![CDATA[<i>Lorem ipsum</i>]]></i>
-    //     <a href><![CDATA[<a href>Lorem ipsum</a>]]></a>
-    // </div>
-    // `
 })
 class Texts { }
 
 
-SB.storiesOf('Typography', module)
+SB.storiesOf('UI|Typography', module)
     .add('Headings', () => ({
         component: Headings
     }))

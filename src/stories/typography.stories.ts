@@ -1,8 +1,11 @@
 import { Component } from "@angular/core";
 import * as SB from '@storybook/angular'
 
+export default {
+    title: 'UI|Typography'
+}
 
-@Component({
+export const Headings = () => ({
     template: `
         <h1>h1</h1>
         <h2>h2</h2>
@@ -12,22 +15,11 @@ import * as SB from '@storybook/angular'
         <h6>h6</h6>
     `
 })
-class Headings { }
 
-@Component({
+export const Texts = () => ({
     template: `
         <p class="red"><![CDATA[<p class="red">Lorem ipsum</p>]]></p>
         <p class="blue"><![CDATA[<p class="blue">Lorem ipsum</p>]]></p>
         <a href><![CDATA[<a href>Lorem ipsum</a>]]></a>
     `
 })
-class Texts { }
-
-
-SB.storiesOf('UI|Typography', module)
-    .add('Headings', () => ({
-        component: Headings
-    }))
-    .add('Texts', () => ({
-        component: Texts
-    }))

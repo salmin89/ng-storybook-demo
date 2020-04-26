@@ -1,18 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-.flex-col {
-    display: flex;
-    flex-direction: column;;
-}
-
-.red {
-    color: red;
-}
-
-.blue {
-    color: blue
-}
-
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
  * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -1007,3 +994,29 @@
    vertical-align: top;
    max-width: 100%;
  }
+
+
+
+
+.flex-col {
+  display: flex;
+  flex-direction: column;;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue
+}
+
+.error {
+border: 1px solid red;
+color: red;
+}
+
+.success {
+border: 1px solid green;
+color: green;
+}
